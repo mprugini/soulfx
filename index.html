@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Soulfx Test</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link type="text/css" rel="stylesheet" href="main.css"/>
+	
+	
+	<style>
+ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #f0f5f8;
+			border: 1px solid #c0c0c0;
+			
+		}
+
+		li {
+			float: left;
+		}
+
+		li a {
+			display: block;
+			color: #777;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+		li a:hover:not(.active) {
+			background-color: #111;
+		}
+
+		.active {
+			background-color: #4a5a69;
+			color: white;
+		}
+		
+		.form-control{
+			background-color: #f8fbfd;
+		}
+
+</style>
+</head>
+
+<body>
+	<div class="container">
+		<a href="#"><img src="images/logo.png"></a>
+		<br>
+		<br>
+		<ul>
+			<li><a href="#home">Home</a></li>
+			<li><a href="#news">About</a></li>
+			<li><a href="#contact">Contact</a></li>
+			<li><a class="active" href="#about">Articles</a></li>
+		</ul>
+		<br>
+		<br>
+		<div class="wrapper">
+			<div id="one">
+				<h3>Designing The Most Desirable Product: Exploration of Banknotes Design</h3>
+				<hr>
+				<div>
+					<div style="width: 100%">
+						<img style="float: right;" src="images/sample.PNG">
+					</div>
+					<div>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellenstesque gravida eusmod augue, id rhoncus metus feugiat vitae.
+							Vivamus ullamcorper erat sed leo emperdiet sollicitudin. Sed placerat eu lacus et iaculis. Cras suscipit placerat mattis. Sed vitae imperidiet quam.
+							In et bibendum nunc. Integer ac diam sapien. Duis sit amet nisl laoreet, bibendum neque et, efficitur massa.
+						</p>
+
+						<p>
+							Sed in lectus non lectus laoreet pulvinar congue quis sem. Cras id hendrerit purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+							est ante, mattis id elementum a, feugiat ultrices justo. Aenean vitae porta magna. Integer posuere convallis blandit. Ut tempor leo metus, id
+							elementum nisi emperdiet vitae. Suspendisse pellenstesque tempus lorem, eget pharetra urna pellentesque quis. Suspendisse pellentesque tempus lorem,
+							eget pharetra urna pellenstque quis. <a href="#">Suspendisse</a> pellentesque tempus lorem, eget pharetra urna pellentesque quis. Suspendisse pellentesque
+							tempus lorem, eget phraretra urna pellenstque quis.
+						</p>
+
+						<p>
+							Praesebt posuere magna vel velit rutrum porta. In hac habitasse platea dictumst. Praesent aliquam erat non erat ultricies eleifend. Nullam aliquam dolor
+							egestas dui gravidia iaculis. Nullam nec luctus nulla, eget rhoncus tortor. Morbi non eleifend arcu, at congue massa.
+							<a href="#">Nam pellentesque mauris vitae venenatis aliques.</a> In sit amet ipsum ante. Sed sodales massa quis mauris convallis
+						</p>
+
+						<img src="images/scale.PNG" style="margin-left: auto; margin-right: auto; max-width: 100%">
+
+						<br>
+						<br>
+
+						<p>
+							Praesent posuere magna vel velit rutrum porta. In hac habitase platea dictumst. Praesent aliquam erat non erat ultricies eleifend. Nullam aliquam dolor
+							egestas dui gravida iavulis nullam nec luctus nulla, eget rhoncus tortor. Morbi non eleifend arcu, at congue massa.
+						</p>
+
+						<br>
+						<br>
+
+					</div>
+				</div>
+			</div>
+			<div id="two">
+				<h4>Contact Form</h4>
+				<form method="post" action="#">
+					<label>Name</label>
+					<input type="text" name="name" class="form-control">
+					<br>
+					<label for="email">Email</label>
+					<input id="email" type="email" name="email" class="form-control">
+					<br>
+					<label for="message">Message</label>
+					<textarea id="message" type="text" name="name" class="form-control" rows="6"></textarea>
+					<br>
+					<label for="updates">Receive email updates?</label>
+					<input id="updates" type="checkbox" name="name" class="form-control" checked style="float: right; width: 16px;height: 16px">
+					<br>
+					<hr>
+					<button type="submit" class="btn" style="background-color: #f26a5c; color: #fce6e5;float: right; width: 100px">Submit</button>
+					<br><br>
+					<h4><img src="images/pdf.PNG"> Download Resources</h4>
+					<hr>
+					<ul>
+						<li><span>Sample Download July</span></li>
+						<li><span>July Resources</span></li>
+						<li><span>Sample Download August</span></li>
+						<li><span>September Reports</span></li>
+					</ul>
+				</form>
+			</div>
+		</div>
+	</div>
+	<footer class="footer">
+		<div id="copyright">&copy; 2016 Soulfx Technologies Inc. <span style="float: right; padding-right: 20px"><a href="#">Contact Us</a> | <a href="#">About Us</a></span></div>
+	</footer>
+</body>
+</html>
